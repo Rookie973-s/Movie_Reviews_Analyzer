@@ -1,5 +1,5 @@
 import streamlit as st
-# import torch
+import torch
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 
 st.set_page_config(
