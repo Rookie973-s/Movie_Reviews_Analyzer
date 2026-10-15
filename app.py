@@ -8,7 +8,7 @@ st.set_page_config(
     layout="centered",
 )
 
-MODEL_PATH = "sentiment_model"
+MODEL_PATH = "Rookie1111agag/sentiment_model"
 def load_model():
     tokenizer = AutoTokenizer.from_pretrained(MODEL_PATH)
     model = AutoModelForSequenceClassification.from_pretrained(MODEL_PATH)
